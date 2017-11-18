@@ -13,18 +13,20 @@ ReactDOM.render(
       <div className="title">componentWillReceiveProps()</div>
       <Survey />
     </div>
-    <div className="container">
-      <div className="title">shouldComponentUpdate()</div>
-      <Circles />
-    </div>
-    <div className="container">
-      <div className="title">componentWillUpdate()</div>
-      <Animation />
-    </div>
-    <div className="container">
-      <div className="title">componentDidUpdate()</div>
-      <Pikachu />
-    </div>
+
+  <div className="container">
+    <div className="title">shouldComponentUpdate()</div>
+    <Circles />
+  </div>
+  <div className="container">
+    <div className="title">componentWillUpdate()</div>
+    <Animation />
+  </div>
+  <div className="container">
+    <div className="title">componentDidUpdate()</div>
+    <Pikachu />
+  </div>
+
   </div>,
   document.getElementById('global')
 );

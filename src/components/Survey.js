@@ -1,9 +1,9 @@
 import React from 'react';
 import Rating from './Rating';
 
-function random(array) {
-  return array[Math.floor(Math.random() * array.length)];
-}
+// function random(array) {
+//   return array[Math.floor(Math.random() * array.length)];
+// }
 
 class Survey extends React.Component {
 
@@ -13,6 +13,10 @@ class Survey extends React.Component {
     this.state = {
       rating: 0
     };
+  }
+
+  forceUpdate(){
+    this.setState({rating: this.state.rating})
   }
 
   increaseRating = () => {
