@@ -15,10 +15,6 @@ class Survey extends React.Component {
     };
   }
 
-  forceUpdate(){
-    this.setState({rating: this.state.rating})
-  }
-
   increaseRating = () => {
     this.setState({ rating: this.state.rating + 1 });
   }
